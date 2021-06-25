@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    </head>
+    <body>
+
+        <!-- container to output map area of image : -->
+        <div id="outer-container" style="font-size: 24px;"></div>
+        
+        <!-- map area of image for coordinates get : -->
+        <img src="https://fvmstatic.s3.amazonaws.com/maps/m/LT-EPS-02-6001.png" width="750" height="600" alt="mapwidget" usemap="#mapwidget">
+        <map name="mapwidget">
+        <area id="img-instance" shape="default" coords="" alt="full-image">
+        </map>
+        
+        <!-- other HTML controls for the image set : -->
+        <button id="btn-rm" type="button" class="btn btn-warning">Enable remover</button>
+        <button id="btn-update" type="button" class="btn btn-info">Final doGet</button>
+    <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+div#outer-container, img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+img {
+    z-index: 0;
+}
+
+button {
+    position: relative;
+    padding: 16px;
+}
+
+i {
+    z-index: 999;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
