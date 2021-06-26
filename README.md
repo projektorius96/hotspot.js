@@ -21,6 +21,9 @@
       <a href="#getting-started">Getting Started</a>
     </li>
     <li>
+      <a href="#prereqs"><b>Prerequisites [IMPORTANT]</b></a>
+    </li>
+    <li>
       <a href="#acknowledgements">Acknowledgements</a>
     </li>
     <li>
@@ -44,8 +47,17 @@ It's over the decade to be be open for everyone who is least one hand into Googl
 
 ---
 
+<!-- PREREQUISITES -->
+## [Prerequisites](#prereqs)
+As GAS IDE recently switched the engine to a globally known V8, the same engine Google Chrome browser uses behind the hood as well. That's why Google Chrome would be higly recommended to use as the prerequisite environment for this back-end oriented application.
+<!-- PREREQUISITES -->
+
+---
+
 <!-- GETTING STARTED -->
 ## [Getting Started](#getting-started)
+When it comes about the hotspot widget (hotspot.js) itself, all it does, it lets you place the markers on the map image by mouse clicks (_more advanced GUI is one the features currently upcoming_), the markers are coordinates (coords) themselves that go to Google Sheets (thanks for GAS integration provided) within every click on image map made. When you reload the browser markers will disappear in the browser DOM, but will stay in memory of Google Sheets – a primitive database replica. Introducing such widget as a part of application example into frames of the same language (_in this case JavaScript within browser environment_), opens doors for basic application development without PHP nor Node.js or other languages / environments / frameworks as the prerequisite needed.
+
 For a further do I am sharing a ready to go JavaScript boilerplate for Google Apps Script (GAS) integration. This back-end boilerplate comes hand in hand with **FETCH API** which content declared within the file of **script.js** provided as an integration example with **Hotspot widget** written totally in vanilla JavaScript flavour by me i.e. @projektorius96 . Instead of ready deployed application I am sharing a touch of interation on one's own _account of Google_ which is _the only prerequisite_ needed to meet for you to be fully set. 
 
 **PLEASE READ _STEPS MUST FOLLOW_ CAREFULLY**
@@ -90,6 +102,13 @@ function doPost(e) {
 ```
 <span style="color:red"><b>CAUTION</b></span> : each way you follow, you will have to update <span style="color:black"><b>request_url</b><span><span style="color:black"> variable with up-to-date <b>/CURRENT_DEPLOYMENT_ID/</b> of one's deployment (version) which can be found in GAS IDE Manage Deployments Dialog<span>
 
+For instructions on how to DEPLOY the app within GAS IDE and find DEPLOYMENT_ID for /CURRENT_DEPLOYMENT_ID/ updated onto request_url | [ [read more about here](https://romain-vialard.medium.com/deploy-easily-with-the-new-google-apps-script-ide-69343c71a889) ]
+
+For GAS IDE itself, please open your container-based application file you wish (any Google Sheets file on Google Drive) and follow the along the path :
+> Tools –> Script editor
+
+If you want to observe all the projects of Apps Script you're on currently, you have a Dashboard for this as well [ [GAS Dashboard](https://script.google.com/home/all) ]
+
 ---
 
 In terms of FETCH API request within **script.js** provided : if it appeared too advanced for one's eye, I am providing a more simplified bare minimum boilerplate . <b>This is for Front-end particularly ! </b>
@@ -118,12 +137,12 @@ In terms of FETCH API request within **script.js** provided : if it appeared too
 
 ---
 
-<!-- PREREQUISITES -->
+<!-- ACKNOWLEDGMENT -->
 ## [Acknowledgements](#acknowledgements)
 - [CCC](http://www.chicagocomputerclasses.com/)
 - [Apps Script](https://developers.google.com/apps-script)
 - [Image used](https://freevectormaps.com/lithuania/LT-EPS-02-0003?ref=search_result)
-<!-- PREREQUISITES -->
+<!-- ACKNOWLEDGMENT -->
 
 ---
 
