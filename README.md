@@ -24,11 +24,16 @@
       <a href="#acknowledgements">Acknowledgements</a>
     </li>
     <li>
+      <a href="#useful-refs">Useful references</a>
+    </li>
+    <li>
       <a href="#license">License</a>
     </li>
   </ol>
 </details>
 <!-- TABLE OF CONTENTS -->
+
+---
 
 <!-- ABOUT THE PROJECT -->
 ## [About The Project](#about-the-project)
@@ -37,9 +42,11 @@
 It's over the decade to be be open for everyone who is least one hand into Google Services such as Google Docs, Maps or Sheets. Particular to later i.e. Google Sheets (GS) that comes hand in hand with Google Apps Script (GAS) Integrated Development Environment (IDE) can be made use of as for back-end projects i.e. the database on the fly with a few lines of code as presented within boilerplate in [Getting Started](#getting-started) section down below.
 <!-- ABOUT THE PROJECT -->
 
+---
+
 <!-- GETTING STARTED -->
 ## [Getting Started](#getting-started)
-For a further do I am sharing a ready to go JavaScript boilerplate for Google Apps Script (GAS) integration. This back-end boilerplate comes hand in hand with **FETCH API** which content declared within the file of **script.js** provided as an integration example with **Hotspot widget** written totally in vanilla JavaScript flavour by me i.e. @projektorius96 . Instead of ready deployed application I am sharing a touch of interation on one's own account of Google which is the only prerequisite needed to meet for you to be fully set. 
+For a further do I am sharing a ready to go JavaScript boilerplate for Google Apps Script (GAS) integration. This back-end boilerplate comes hand in hand with **FETCH API** which content declared within the file of **script.js** provided as an integration example with **Hotspot widget** written totally in vanilla JavaScript flavour by me i.e. @projektorius96 . Instead of ready deployed application I am sharing a touch of interation on one's own _account of Google_ which is _the only prerequisite_ needed to meet for you to be fully set. 
 
 **PLEASE READ _STEPS MUST FOLLOW_ CAREFULLY**
 ```javascript
@@ -81,7 +88,7 @@ function doPost(e) {
 }
 
 ```
-<span style="color:red"><b>CAUTION</b></span> : each way you do, you will have to update <span style="color:black"><b>request_url</b><span><span style="color:black"> variable with up-to-date <b>/CURRENT_DEPLOYMENT_ID/</b> of one's deployment (version) which can be found in GAS IDE Manage Deployments Dialog<span>
+<span style="color:red"><b>CAUTION</b></span> : each way you follow, you will have to update <span style="color:black"><b>request_url</b><span><span style="color:black"> variable with up-to-date <b>/CURRENT_DEPLOYMENT_ID/</b> of one's deployment (version) which can be found in GAS IDE Manage Deployments Dialog<span>
 
 ---
 
@@ -109,12 +116,24 @@ In terms of FETCH API request within **script.js** provided : if it appeared too
 ```
 <!-- GETTING STARTED -->
 
+---
+
 <!-- PREREQUISITES -->
 ## [Acknowledgements](#acknowledgements)
 - [CCC](http://www.chicagocomputerclasses.com/)
 - [Apps Script](https://developers.google.com/apps-script)
 - [Image used](https://freevectormaps.com/lithuania/LT-EPS-02-0003?ref=search_result)
 <!-- PREREQUISITES -->
+
+---
+
+<!-- REFERENCES -->
+## [Useful references](#useful-refs)
+- [Google Cheat Sheet](https://codepen.io/projektorius96/pen/qBqXqEq)<br>
+- [Google Sheets API for beginners](https://docs.google.com/document/d/1diPskvvA-XfTA2akGeoDBgRLC7DU3150pKrIQThonIU/edit?usp=sharing)
+<!-- REFERENCES -->
+
+---
 
 <!-- LICENSE -->
 ## [License](#license)
