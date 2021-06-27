@@ -104,7 +104,7 @@ function doPost(e) {
 
 For instructions on how to DEPLOY the app within GAS IDE and find DEPLOYMENT_ID for /CURRENT_DEPLOYMENT_ID/ updated onto request_url | [ [read more about here](https://romain-vialard.medium.com/deploy-easily-with-the-new-google-apps-script-ide-69343c71a889) ]
 
-For GAS IDE itself, please open your container-based application file you wish (any Google Sheets file on Google Drive) and follow the along the path :
+For GAS IDE itself, please open your container-based application file you wish (any Google Sheets file on Google Drive) and follow along the path :
 > Tools –> Script editor
 
 If you want to observe all the projects of Apps Script you're on currently, you have a Dashboard for this as well [ [GAS Dashboard](https://script.google.com/home/all) ]
